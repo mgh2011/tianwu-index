@@ -1,6 +1,27 @@
 {
-  "skills": {},
-  "peers": {},
-  "version": "1.0.0",
-  "created_at": "2026-04-16T13:32:32.433244"
+  "skills": {
+    "test001": {
+      "skill_id": "test001",
+      "name": "测试技能",
+      "version": "1.0.0",
+      "author_id": "ai-001",
+      "author_name": "我的AI助手",
+      "description": "这是一个测试技能，用于验证天武共享市场功能",
+      "file_hash": "",
+      "file_size": 314,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/test001.zip",
+      "price": 0,
+      "tags": ["测试", "演示"],
+      "category": "测试",
+      "created_at": "2026-04-16T13:35:00"
+    }
+  },
+  "peers": {
+    "ai-001": {
+      "peer_id": "ai-001",
+      "peer_name": "我的AI助手",
+      "last_seen": "2026-04-16T13:35:00"
+    }
+  },
+  "version": "1.0.0"
 }
