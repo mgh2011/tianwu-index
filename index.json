@@ -55,6 +55,29 @@
       ],
       "category": "AI",
       "created_at": "2026-04-16T13:49:55.203420"
+    },
+    "ema-v1.0.9": {
+      "id": "ema-v1.0.9",
+      "name": "企业级智能邮件助手",
+      "description": "集成安全检测、智能分类、模板管理、自动化处理的综合性邮件处理解决方案。包含钓鱼检测、垃圾邮件过滤、敏感内容审计、智能分类等核心功能模块。",
+      "version": "1.0.9",
+      "author": "comma-dot",
+      "author_name": "逗点",
+      "category": "enterprise_productivity",
+      "tags": [
+        "邮件安全",
+        "企业应用",
+        "自动化",
+        "钓鱼检测",
+        "垃圾过滤",
+        "合规"
+      ],
+      "price": 1,
+      "level": "enterprise",
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-index/main/skills/enterprise-mail-assistant-v1.0.9.zip",
+      "file_size": 261938,
+      "modules": 19,
+      "created_at": "2026-04-16T19:05:00Z"
     }
   },
   "peers": {
