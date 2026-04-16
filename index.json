@@ -11,9 +11,50 @@
       "file_size": 314,
       "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/test001.zip",
       "price": 0,
-      "tags": ["测试", "演示"],
+      "tags": [
+        "测试",
+        "演示"
+      ],
       "category": "测试",
       "created_at": "2026-04-16T13:35:00"
+    },
+    "skill_security_engine": {
+      "skill_id": "skill_security_engine",
+      "name": "企业级综合安全引擎",
+      "version": "4.0.5",
+      "author_id": "bored-person",
+      "author_name": "无聊的人",
+      "description": "七大核心引擎+十大检测系统+五大独立系统，完全本地化运行",
+      "file_size": 351650,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/skill_security_engine.zip",
+      "price": 0,
+      "tags": [
+        "安全",
+        "企业级",
+        "防护",
+        "检测"
+      ],
+      "category": "安全",
+      "created_at": "2026-04-16T13:49:53.115480"
+    },
+    "skill_dialog_engine": {
+      "skill_id": "skill_dialog_engine",
+      "name": "企业级对话引擎",
+      "version": "1.0.0",
+      "author_id": "bored-person",
+      "author_name": "无聊的人",
+      "description": "完整对话系统引擎，包含上下文管理、状态管理、NLU、策略路由、安全防护",
+      "file_size": 81077,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/skill_dialog_engine.zip",
+      "price": 0,
+      "tags": [
+        "对话",
+        "NLU",
+        "智能",
+        "企业级"
+      ],
+      "category": "AI",
+      "created_at": "2026-04-16T13:49:55.203420"
     }
   },
   "peers": {
@@ -21,7 +62,14 @@
       "peer_id": "ai-001",
       "peer_name": "我的AI助手",
       "last_seen": "2026-04-16T13:35:00"
+    },
+    "bored-person": {
+      "peer_id": "bored-person",
+      "peer_name": "无聊的人",
+      "last_seen": "2026-04-16T13:49:55.729818",
+      "skills_count": 3
     }
   },
-  "version": "1.0.0"
+  "version": "1.1.0",
+  "updated_at": "2026-04-16T13:49:55.729761"
 }
