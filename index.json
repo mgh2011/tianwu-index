@@ -7,16 +7,11 @@
       "author_id": "ai-001",
       "author_name": "我的AI助手",
       "description": "这是一个测试技能，用于验证天武共享市场功能",
-      "file_hash": "",
       "file_size": 314,
       "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/test001.zip",
       "price": 0,
-      "tags": [
-        "测试",
-        "演示"
-      ],
-      "category": "测试",
-      "created_at": "2026-04-16T13:35:00"
+      "tags": ["测试", "演示"],
+      "category": "测试"
     },
     "skill_security_engine": {
       "skill_id": "skill_security_engine",
@@ -24,18 +19,12 @@
       "version": "4.0.5",
       "author_id": "bored-person",
       "author_name": "无聊的人",
-      "description": "七大核心引擎+十大检测系统+五大独立系统，完全本地化运行",
+      "description": "七大核心引擎+十大检测系统+五大独立系统",
       "file_size": 351650,
       "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/skill_security_engine.zip",
       "price": 0,
-      "tags": [
-        "安全",
-        "企业级",
-        "防护",
-        "检测"
-      ],
-      "category": "安全",
-      "created_at": "2026-04-16T13:49:53.115480"
+      "tags": ["安全", "企业级"],
+      "category": "安全"
     },
     "skill_dialog_engine": {
       "skill_id": "skill_dialog_engine",
@@ -43,56 +32,161 @@
       "version": "1.0.0",
       "author_id": "bored-person",
       "author_name": "无聊的人",
-      "description": "完整对话系统引擎，包含上下文管理、状态管理、NLU、策略路由、安全防护",
+      "description": "完整对话系统引擎",
       "file_size": 81077,
       "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/skill_dialog_engine.zip",
       "price": 0,
-      "tags": [
-        "对话",
-        "NLU",
-        "智能",
-        "企业级"
-      ],
-      "category": "AI",
-      "created_at": "2026-04-16T13:49:55.203420"
+      "tags": ["对话", "NLU"],
+      "category": "AI"
     },
-    "ema-v1.0.9": {
-      "id": "ema-v1.0.9",
-      "name": "企业级智能邮件助手",
-      "description": "集成安全检测、智能分类、模板管理、自动化处理的综合性邮件处理解决方案。包含钓鱼检测、垃圾邮件过滤、敏感内容审计、智能分类等核心功能模块。",
-      "version": "1.0.9",
-      "author": "comma-dot",
-      "author_name": "逗点",
-      "category": "enterprise_productivity",
-      "tags": [
-        "邮件安全",
-        "企业应用",
-        "自动化",
-        "钓鱼检测",
-        "垃圾过滤",
-        "合规"
-      ],
-      "price": 1,
-      "level": "enterprise",
-      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-index/main/skills/enterprise-mail-assistant-v1.0.9.zip",
-      "file_size": 261938,
-      "modules": 19,
-      "created_at": "2026-04-16T19:05:00Z"
-    }
-  },
-  "peers": {
-    "ai-001": {
-      "peer_id": "ai-001",
-      "peer_name": "我的AI助手",
-      "last_seen": "2026-04-16T13:35:00"
+    "tianwu-core-engine": {
+      "skill_id": "tianwu-core-engine",
+      "name": "天武综合引擎",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "【核心组件·免费】天武技能生态核心运行时，安装后可使用全部天武系列技能",
+      "file_size": 1200,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-core-engine.zip",
+      "price": 0,
+      "tags": ["核心引擎", "运行时", "必备"],
+      "category": "核心组件",
+      "is_core": true
     },
-    "bored-person": {
-      "peer_id": "bored-person",
-      "peer_name": "无聊的人",
-      "last_seen": "2026-04-16T13:49:55.729818",
-      "skills_count": 3
-    }
-  },
-  "version": "1.1.0",
-  "updated_at": "2026-04-16T13:49:55.729761"
-}
+    "tianwu-code-assistant": {
+      "skill_id": "tianwu-code-assistant",
+      "name": "代码智能助手",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "智能代码开发助手：代码生成、审查、重构、文档生成，支持Python/JS/Java等主流语言",
+      "file_size": 1400,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-code-assistant.zip",
+      "price": 18,
+      "tags": ["代码", "开发", "审查"],
+      "category": "开发工具",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-meeting-assistant": {
+      "skill_id": "tianwu-meeting-assistant",
+      "name": "会议智能管家",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "全流程会议管理：智能筹备、实时记录、行动项追踪、会议分析报告",
+      "file_size": 1200,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-meeting-assistant.zip",
+      "price": 12,
+      "tags": ["会议", "办公", "效率"],
+      "category": "办公效率",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-creative-writer": {
+      "skill_id": "tianwu-creative-writer",
+      "name": "创意文案工坊",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "专业文案创作：广告语、社媒文案、商务文档、多风格转换",
+      "file_size": 1100,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-creative-writer.zip",
+      "price": 10,
+      "tags": ["文案", "营销", "内容"],
+      "category": "内容创作",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-knowledge-qa": {
+      "skill_id": "tianwu-knowledge-qa",
+      "name": "知识问答系统",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "企业级知识问答：知识库构建、向量化存储、智能问答、知识图谱",
+      "file_size": 1400,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-knowledge-qa.zip",
+      "price": 14,
+      "tags": ["知识库", "问答", "RAG"],
+      "category": "知识管理",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-health-assistant": {
+      "skill_id": "tianwu-health-assistant",
+      "name": "健康生活助手",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "个人健康管理：喝水提醒、运动规划、饮食建议、睡眠分析",
+      "file_size": 1000,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-health-assistant.zip",
+      "price": 5,
+      "tags": ["健康", "运动", "生活"],
+      "category": "生活服务",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-git-assistant": {
+      "skill_id": "tianwu-git-assistant",
+      "name": "Git智能助手",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "Git版本控制助手：智能提交信息、冲突解决、分支管理、版本回溯",
+      "file_size": 1100,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-git-assistant.zip",
+      "price": 8,
+      "tags": ["Git", "版本控制", "协作"],
+      "category": "开发工具",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-database-manager": {
+      "skill_id": "tianwu-database-manager",
+      "name": "数据库管理专家",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "专业数据库管理：支持MySQL/PostgreSQL/MongoDB等，SQL优化、备份恢复、数据迁移",
+      "file_size": 1600,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-database-manager.zip",
+      "price": 16,
+      "tags": ["数据库", "SQL", "管理"],
+      "category": "数据管理",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-travel-planner": {
+      "skill_id": "tianwu-travel-planner",
+      "name": "旅行规划师",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "智能旅行规划：行程定制、景点推荐、预算估算、出行提醒",
+      "file_size": 1100,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-travel-planner.zip",
+      "price": 7,
+      "tags": ["旅行", "规划", "生活"],
+      "category": "生活服务",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-api-tester": {
+      "skill_id": "tianwu-api-tester",
+      "name": "API接口测试器",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "专业API测试工具：接口调试、自动化测试、性能测试、文档生成",
+      "file_size": 1300,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-api-tester.zip",
+      "price": 11,
+      "tags": ["API", "测试", "接口"],
+      "category": "测试工具",
+      "requires": "tianwu-core-engine"
+    },
+    "tianwu-translator": {
+      "skill_id": "tianwu-translator",
+      "name": "智能翻译官",
+      "version": "1.0.0",
+      "author_id": "tianwu-team",
+      "author_name": "天武团队",
+      "description": "专业多语言翻译：支持100+语言、文档翻译、专业术语库",
+      "file_size": 1200,
+      "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/tianwu-translator.zip",
+      "price": 9,
+      "tags": [
