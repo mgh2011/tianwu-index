@@ -255,7 +255,7 @@
       "description": "企业级邮件安全检测系统：钓鱼检测、恶意链接识别、垃圾邮件过滤、深度伪造检测、威胁情报集成。支持中英文，符合GDPR/CCPA/网络安全法",
       "file_size": 310042,
       "download_url": "https://raw.githubusercontent.com/mgh2011/tianwu-files/main/skills/email-gatekeeper.zip",
-      "price": 0,
+      "price": 13,
       "tags": [
         "邮件安全",
         "钓鱼检测",
